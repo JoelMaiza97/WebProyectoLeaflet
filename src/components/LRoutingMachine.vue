@@ -66,14 +66,7 @@ const props = {
   }
 }
 
-// const optionTestNames = [
-//   'router',
-//   'plan',
-//   'geocoder',
-//   'lineOptions',
-//   'routeLine',
-//   'altLineOptions'
-// ]
+
 
 export default {
   props,

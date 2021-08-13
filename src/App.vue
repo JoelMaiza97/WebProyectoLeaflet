@@ -6,6 +6,13 @@
         :attribution="attribution"/>
       <l-routing-machine :waypoints="waypoints"/>
     </l-map>
+
+  <div id="GPS">
+    <router-link class="btn btn-success" type="button" to="./GPS">
+      <i></i> GPS Position
+    </router-link>
+  </div>
+
   </div>
 </template>
 
@@ -29,9 +36,7 @@ export default {
         L.latLng(-1.259775, -78.623854),
         L.latLng(-1.252601, -78.632975),
         L.latLng(-1.241757, -78.626915)
-      ],
-      language: 'es',
-      routeWhileDragging: false
+      ]
     }
   }
 }
